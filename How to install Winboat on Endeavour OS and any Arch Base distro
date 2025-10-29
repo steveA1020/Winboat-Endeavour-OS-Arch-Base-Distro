@@ -1,0 +1,32 @@
+Let's install the dependencies required for Winboat:
+
+sudo pacman -S docker docker-compose freerdp
+
+Let's start docker:
+
+sudo systemctl start docker
+
+sudo systemctl enable docker
+
+Let's see if docker works:
+
+sudo docker run hello-world
+
+Let's add permission to docker:
+
+sudo usermod -aG docker $USER
+
+Now install Winboat:
+
+sudo pacman -S winboat
+
+Now reboot
+
+After reboot launch Winboat and proceed with set up.
+
+Beware if you decide to share home folder with winboat if you delete anything while in windows in your share folder it will delete it in your home folder also.
+
+Link to my video if needed:
+https://youtu.be/Qb0pa_qzxko
+
+Enjoy
